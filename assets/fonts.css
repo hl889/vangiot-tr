@@ -1,0 +1,16 @@
+/* 本地化字体（原 https://miaoda.feishu.cn/fonts/css2?family=Nunito+Sans+...） */
+@font-face {
+  font-display: swap;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(fonts/nunito-sans.ttf) format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/noto-sans-sc.ttf) format('truetype');
+}
