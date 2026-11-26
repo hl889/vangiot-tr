@@ -207,7 +207,7 @@ button{font:inherit;color:inherit}
   transition:box-shadow .28s,transform .28s;
 }
 .shot:hover{box-shadow:var(--raise-sm);transform:translateY(2px)}
-.shot .frame{border-radius:14px;overflow:hidden;box-shadow:var(--press-sm);aspect-ratio:16/10;background:var(--bg);position:relative}
+.shot .frame{display:block;border-radius:14px;overflow:hidden;box-shadow:var(--press-sm);aspect-ratio:16/10;background:var(--bg);position:relative}
 .shot .frame img{position:absolute;inset:24px 0 0 0;width:auto;height:auto;object-fit:cover;object-position:top;transition:transform .45s ease}
 .shot:hover .frame img{transform:scale(1.035)}
 .win-bar{position:absolute;top:0;left:0;right:0;height:24px;display:flex;align-items:center;gap:6px;padding:0 10px;background:linear-gradient(180deg,#eef2f8,#dde4ef);border-bottom:1px solid var(--dark);z-index:3}
